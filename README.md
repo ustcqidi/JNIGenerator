@@ -2,7 +2,7 @@
 Extracts native methods from a Java file and generates the JNI bindings via python script. You should follow rule to generate corresponding jni interface.
 
 1. Java call Native：the method should starts with **native**, such as
-public static native boolean nativeLogin(String username, String password, String server, String roomEmail, String requestID);
+<br>public static native boolean nativeLogin(String username, String password, String server, String roomEmail, String requestID);
 
 2. Native call Java: you should add the annotation **@CalledByNative**, such as
 <br>@CalledByNative
