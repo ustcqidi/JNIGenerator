@@ -5,7 +5,7 @@ Extracts native methods from a Java file and generates the JNI bindings via pyth
 public static native boolean nativeLogin(String username, String password, String server, String roomEmail, String requestID);
 
 2. Native call Java: you should add the annotation **@CalledByNative**, such as
-@CalledByNative
+<br>@CalledByNative
 public static void sinkResponse(String response) {
 }
 
