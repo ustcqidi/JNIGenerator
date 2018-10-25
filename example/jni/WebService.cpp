@@ -14,7 +14,7 @@ bool WebService::RegisterNativesUtil(JNIEnv *) {
     return RegisterNativesImpl(env);
 }
 
-void WebService::nativeLogin(std::string name, std::password) {
+void WebService::nativeLogin(std::string name, std::string password) {
     // native implementation
     // ...
 
