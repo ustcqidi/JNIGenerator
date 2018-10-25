@@ -6,8 +6,8 @@ public static native boolean nativeLogin(String username, String password, Strin
 
 2. Native call Java: you should add the annotation **@CalledByNative**, such as
 <br>@CalledByNative
-public static void sinkResponse(String response) {
-}
+<br>public static void sinkResponse(String response) {
+<br>}
 
 ## Usage
 1. Add the files under base folder to you project.
